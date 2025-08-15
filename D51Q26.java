@@ -16,7 +16,7 @@ public class D51Q26 {
     }
 }
 /*
-case switchの()内と比較し、等しければその後ろの文を実行する
-break case文の中に入れ、実行されるとswitchの処理全体を終了させる
-fall-through case文の中に入れ、次のcase文も実行する（デフォルトでこれ）
- */
+case switchの()内と比較し、等しければその後ろの文を実行
+break case文の中に入れて、実行されたらswitchの処理全体を終了
+fall-through case文の中に入れて、次のcase文も実行
+*/
