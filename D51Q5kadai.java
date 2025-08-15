@@ -16,6 +16,6 @@ public class D51Q5kadai {
             price += (int)((level[i] - level[i - 1]) / unit[i]) * rate[i];
         }
         price += (int) Math.ceil((amount - level[i - 1]) / unit[i]) * rate[i];
-        System.out.println("今月のガスの使用料金:" + price + "円");
+        System.out.println("今月のガスの使用料金は " + price + "円");
 ;    }
 }
